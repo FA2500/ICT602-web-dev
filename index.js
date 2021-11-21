@@ -1,1 +1,0 @@
-const Discord = new Discord;
