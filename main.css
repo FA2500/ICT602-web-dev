@@ -15,8 +15,8 @@ html {
 body {
   font-family: 'Space Mono', monospace;
   line-height: 1.6;
-  background: rgba(175, 238, 238, 0.3);
-  color: lightcoral;
+  background: rgba(0, 0, 255, 0.15);
+  color: rgba(0, 0, 0, 255);
   margin: 0 auto;
   padding: 0;
   max-width: 900px;
@@ -26,6 +26,8 @@ body {
 
 h1 {
   font-size: 3rem;
+  text-align: center;
+	
 }
 
 h2 {
@@ -50,8 +52,8 @@ button {
   font-size: 1.2rem;
   padding: 0.5em 1em;
   border: none;
-  background-color: aquamarine;
-  color: #0a2472;
+  background:#2622AE;
+  color: #DBF8FB;
   font-family: 'Space Mono', monospace;
 }
 
@@ -72,6 +74,9 @@ header {
   width: 100%;
   margin: 0 auto;
   padding: 1em 1em;
+  text-align: center;
+	  
+  
 }
 
 .container-row {
@@ -91,6 +96,12 @@ header {
   border: none;
   border-radius: 2px;
   cursor: pointer;
+}
+
+#login_button, #cancel_button{
+	text-align: center;
+	display: inline-block;
+	
 }
 
 .btn-main {
