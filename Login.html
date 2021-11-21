@@ -10,14 +10,18 @@
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 
-    <label for="psw"><b>Password</b></label>
+  </div>
+	
+	<div class="container">
+		<label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit">Login</button>
+		
+		<button type="submit"id="login_button">Login</button> 
+		<button type="button"id="cancel_button" class="cancelbtn">Cancel</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
-  </div>
+	</div>
 
   <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
@@ -25,7 +29,7 @@
   </div>
 	
 	<div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
+    
     <span class="psw">Don't have an account? <a href="#">Sign up</a></span>
   </div>
 </form>
