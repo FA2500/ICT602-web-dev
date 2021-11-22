@@ -54,8 +54,6 @@ textarea {
   font-size: 1rem;
   margin-top: 25px;
   margin-bottom: 10px;
-  text width:30px;
-	
 }
 
 input{
@@ -63,9 +61,6 @@ input{
 	margin-bottom: 10px;
 }
 
-#textarea,#input{
-	display: inline-block;
-}
 
 button {
   display: inline-block;
@@ -76,7 +71,7 @@ button {
   color: #FFFFFF;
   font-family: 'Space Mono', monospace;
   margin-top: 20px;
-  margin-bottom: 15px;
+  margin-bottom:15px;
   margin-left: 0px;
   margin-right: 40px;
 }
