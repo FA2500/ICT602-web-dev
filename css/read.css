@@ -27,11 +27,11 @@ body {
 h1 {
   font-size: 3rem;
   text-align: center;
-	
-}
+  background: #D9E335}
 
 h2 {
   font-size: 2rem;
+	background: #000000;
 }
 
 h3 {
@@ -40,7 +40,12 @@ h3 {
 
 h4{
   text-align: center;
-  background: #D1A9EC
+  background: #D1A9EC;
+}
+
+li{
+	background: #74BFF5;
+	margin: 50px;
 }
 
 p {
