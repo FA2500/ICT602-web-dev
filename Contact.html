@@ -18,21 +18,31 @@
   </div>
   <div class="row">
     <div class="column">
-      <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="malaysia">Malaysia</option>
-          <option value="brunei">Brunei</option>
-          <option value="singapore">Singapore</option>
-		  <option value="indonesia">Indonesia</option>
-        </select>
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
+		<form class="message_form">
+		<div class="column1">
+        	<label for="fname">First Name</label>
+        	<input type="text" id="fname" name="firstname" placeholder="Your name..">
+	    </div>
+	    <div class="column2">
+        	<label for="lname">Last Name</label>
+        	<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+	    <div class="column3">
+        	<label for="country">Country</label>
+        	<select id="country" name="country">
+          		<option value="malaysia">Malaysia</option>
+          		<option value="brunei">Brunei</option>
+          		<option value="singapore">Singapore</option>
+		  		<option value="indonesia">Indonesia</option>
+				</select>
+		</div>
+		<div class="column4">
+        	<label for="subject">Subject</label>
+        	<textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+		</div>
+		<div class="column5">
+        	<input type="submit" value="Submit">
+		</div>
       </form>
     </div>
   </div>
