@@ -405,6 +405,13 @@ input[class^='btn-']:hover {
   text-decoration-color: lightgoldenrodyellow;
 }
 
+.section_subtitle{
+	font-size: 2.7rem;
+}
+
+.about_description{
+	font-size: 2.7rem;
+}
 .circle{
 	height: 150px;
 	width: 150px;
