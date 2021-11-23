@@ -406,15 +406,15 @@ input[class^='btn-']:hover {
 }
 
 .section_subtitle{
-	font-size: 2.7rem;
+	font-size: 2.4rem;
 }
 
 .about_description{
-	font-size: 2.7rem;
+	font-size: 2.0rem;
 }
 .circle{
-	height: 150px;
-	width: 150px;
+	height: 300px;
+	width: 300px;
 	background-color: #5B0992;
 	border-radius: 50%;
 	text-align: center;
@@ -426,6 +426,7 @@ input[class^='btn-']:hover {
 	text-align: center;
 	margin-top: 50px;
 	color: #FFFFFF;
+	font-size: 2.0rem;
 
 }
 
@@ -433,6 +434,7 @@ input[class^='btn-']:hover {
 	text-align: center;
 	margin-top: 50px;
 	color: #FFFFFF;
+	font-size: 2.0rem;
 
 }
 
@@ -440,6 +442,7 @@ input[class^='btn-']:hover {
 	text-align: center;
 	margin-top: 50px;
 	color: #FFFFFF;
+	font-size: 2.0rem;
 
 }
 
@@ -447,6 +450,7 @@ input[class^='btn-']:hover {
 	text-align: center;
 	margin-top: 50px;
 	color: #FFFFFF;
+	font-size: 2.0rem;
 
 }
 
@@ -454,6 +458,7 @@ input[class^='btn-']:hover {
 	text-align: center;
 	margin-top: 50px;
 	color: #FFFFFF;
+	font-size: 2.0rem;
 
 }
 
@@ -461,6 +466,7 @@ input[class^='btn-']:hover {
 	text-align: center;
 	margin-top: 50px;
 	color: #FFFFFF;
+	font-size: 2.0rem;
 
 }
 
