@@ -418,6 +418,42 @@ input[class^='btn-']:hover {
 .info_title1{
 	text-align: center;
 	margin-top: 50px;
+	color: #FFFFFF;
+
+}
+
+.info_name1{
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
+
+}
+
+.info_title2{
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
+
+}
+
+.info_name2{
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
+
+}
+
+.info_title3{
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
+
+}
+
+.info_name3{
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
 
 }
 
