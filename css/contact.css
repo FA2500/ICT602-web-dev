@@ -14,8 +14,36 @@ body {
   margin: auto;
   padding: 0;
   max-width: 10000px;
-  text-align: center;
+	}
 
+h2{
+	font-size: 2.7rem;
+	margin-top: 30px;
+	background: #71FFEE;
+  }
+
+p.message{
+	font-size: 2rem;
+}
+
+input.first{
+	font-size: 2rem;
+}
+
+input.last{
+	font-size: 2rem;
+}
+
+select.country{
+	font-size: 2rem;
+}
+
+textarea.subject{
+	font-size: 2rem;
+}
+
+input.submit{
+	font-size: 2rem;
 }
 
 /* Global Typography */
@@ -30,85 +58,15 @@ a{
 	color: #FFFFFF;
 }
 
-b{
-	font-size: 2.7rem;
-	text-align: center;
-}
-
-img{
-	background: #000000;
-	font-size: 23px;
-	margin-right: 0px;
-	margin-left: 10px;
-}
-
-h1 {
-    font-size: 2.7rem;
-    text-align: center;
-	background: #71FFEE;
-	margin-top: 90px;
-	margin-bottom: 0px;
-}
-
-p{
-	font-size: 2.1rem;
-}
-
 h2 {
     font-size: 2.7rem;
-	text-align: center;
-	margin-top: 60px;
+	margin-top: 90px;
 	margin-bottom: 50px;
-	background: #71FFEE;
-	max-width: 68rem;
-}
-
-div.company.logo{
-	text-align: center;
-	
-}
-
-h3 {
-  text-align: center;
-  font-size: 2.7rem;
-  background: #7B8B8E;
-  margin-left: 55px;
-  margin-right: 55px;
-  margin-bottom: 0px;
-  line-height: 50px;
-  max-width: 9000px;
-
-}
-
-ul{
-  margin-left: 56px;
-  margin-right: 55px;
-  background: #72A6A4;
-}
-
-
-write{
-	background: #D9E335;
-	text-align: center;
-	display: inline-block;
-	
-}
-
-#write_button, #read_button{
-	text-align: center;
-	display: inline-block;
-	margin-top: 0px;
-	
-	
-}
-
-p {
-  font-size: 1rem;
 }
 
 form,
 textarea {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 button {
