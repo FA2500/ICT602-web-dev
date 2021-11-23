@@ -14,6 +14,7 @@ body {
   margin: auto;
   padding: 0;
   max-width: 10000px;
+  text-align: center;
 
 }
 
@@ -49,11 +50,17 @@ h1 {
 	margin-bottom: 0px;
 }
 
+p{
+	font-size: 2.1rem;
+}
+
 h2 {
     font-size: 2.7rem;
 	text-align: center;
-	margin-top: 90px;
+	margin-top: 60px;
 	margin-bottom: 50px;
+	background: #71FFEE;
+	max-width: 68rem;
 }
 
 div.company.logo{
