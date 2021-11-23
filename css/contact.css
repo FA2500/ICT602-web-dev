@@ -42,8 +42,32 @@ textarea.subject{
 	font-size: 2rem;
 }
 
-input.submit{
-	font-size: 2rem;
+
+div.column1{
+	margin-left: 80px;
+}
+div.column2{
+	margin-left: 80px;
+}
+div.column3{
+	margin-left: 80px;
+}
+div.column4{
+	margin-left: 80px;
+}
+div.column5{
+	font-size: 2.3rem;
+	
+}
+
+h4{
+	font-size: 2.3rem;
+	text-align: center;
+	
+}
+
+img.cmp{
+	text-align: center;
 }
 
 /* Global Typography */
@@ -283,4 +307,7 @@ input[class^='btn-']:hover {
   text-align: center;
   text-decoration: underline;
   text-decoration-color: lightgoldenrodyellow;
+}.logo {
+}
+.xxx {
 }
