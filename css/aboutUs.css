@@ -328,10 +328,19 @@ input[class^='btn-']:hover {
 .circle{
 	height: 150px;
 	width: 150px;
-	background-color: #FFFFFF;
+	background-color: #7B8B8E;
 	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+	
 }
 
-span.info_title{
+.info_title1{
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+#mid{
 	text-align: center;
 }
