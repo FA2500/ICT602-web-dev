@@ -1,0 +1,462 @@
+/* My Starter Template */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  line-height: 2.2;
+  background: #00BEAB;
+  margin: auto;
+  padding: 0;
+  max-width: 10000px;
+
+}
+
+/* Global Typography */
+div.topnav{
+	background: #000000;
+}
+a{
+	margin-top:  40px;
+	margin-right: 0px;
+	font-size: 2.7rem;
+	margin-left: 14px;
+	color: #FFFFFF;
+}
+
+b{
+	font-size: 2.7rem;
+	text-align: center;
+}
+
+img{
+	background: #000000;
+	font-size: 23px;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+h1 {
+    font-size: 2.7rem;
+    text-align: center;
+	background: #71FFEE;
+	margin-top: 90px;
+	margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 2.7rem;
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 50px;
+}
+
+div.company.logo{
+	text-align: center;
+	
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.7rem;
+  background: #7B8B8E;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-bottom: 0px;
+  line-height: 50px;
+  max-width: 9000px;
+
+}
+
+ul{
+  margin-left: 56px;
+  margin-right: 55px;
+  background: #72A6A4;
+}
+
+
+write{
+	background: #D9E335;
+	text-align: center;
+	display: inline-block;
+	
+}
+
+#write_button, #read_button{
+	text-align: center;
+	display: inline-block;
+	margin-top: 0px;
+	
+	
+}
+
+p {
+  font-size: 1rem;
+}
+
+form,
+textarea {
+  font-size: 1rem;
+}
+
+button {
+  display: block;
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  border: none;
+  background:#5B0992;
+  color: #FFFFFF;
+  font-family: 'Space Mono', monospace;
+  margin-bottom: 15px;
+}
+
+img{
+	background: #000000;
+	font-size: 23px;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+	background: #C32E31;
+	margin-top: 90px;
+	margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 2.4rem;
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 50px;
+}
+
+div.company.logo{
+	text-align: center;
+	
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.1rem;
+  background: #7B8B8E;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-bottom: 0px;
+  line-height: 50px;
+  max-width: 9000px;
+
+}
+
+ul{
+  margin-left: 56px;
+  margin-right: 55px;
+  background: #72A6A4;
+}
+
+
+write{
+	background: #D9E335;
+	text-align: center;
+	display: inline-block;
+	
+}
+
+#write_button, #read_button{
+	text-align: center;
+	display: inline-block;
+	margin-top: 0px;
+	
+	
+}
+
+p {
+  font-size: 1rem;
+}
+
+form,
+textarea {
+  font-size: 1rem;
+}
+
+button {
+  display: block;
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  border: none;
+  background:#5B0992;
+  color: #FFFFFF;
+  font-family: 'Space Mono', monospace;
+  margin-bottom: 15px;
+}
+
+/* Section Container Positions, Spacing, Utilities */
+
+header {
+  text-align: center;
+  margin: 1em auto;
+}
+
+.section {
+  padding: 1em 1em;
+  width: 100%;
+  margin: 1em auto;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em 1em;
+  text-align: center;
+
+	  
+  
+}
+
+.container-row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Button Standard */
+
+.btn-main,
+.btn-light,
+.btn-dark {
+  display: block;
+  padding: 0.6rem 2rem;
+  margin: 1rem;
+  transition: all 0.1s;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#login_button, #cancel_button{
+	text-align: center;
+	display: inline-block;
+	margin-top: 0px;
+	
+	
+}
+
+.btn-main {
+  color: lightgoldenrodyellow;
+  background-color: lightcoral;
+}
+
+.btn-light {
+  color: #0a2472;
+  background-color: white;
+}
+
+.btn-dark {
+  color: white;
+  background-color: #0a2472;
+}
+
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+  background-color: lightgoldenrodyellow;
+  color: lightcoral;
+  font-weight: 700;
+  transform: scale(1.08);
+}
+
+/* Project Starts Here */
+
+/* Journal Entry Section */
+
+/* Title */
+
+.entry-text-title {
+  width: 20em;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  background-color: lightgoldenrodyellow;
+  font-family: 'Space Mono', monospace;
+}
+
+.entry-text-title:focus {
+  outline-color: lightcoral;
+  font-family: 'Space Mono', monospace;
+  color: lightcoral;
+  font-size: 1rem;
+}
+
+.entry-text-title::placeholder {
+  color: lightcoral;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+}
+
+.entry-text-title::-ms-value {
+  color: lightcoral;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+}
+
+/* Text Box */
+
+.container-row-journal {
+  display: flex;
+  justify-content: center;
+}
+
+.entry-form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.journal-label {
+  display: block;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.entry-text-box {
+  width: 100%;
+  height: 20em;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  background-color: lightgoldenrodyellow;
+  font-family: 'Space Mono', monospace;
+}
+
+@media (min-width: 769px) {
+  .entry-text-box {
+    width: 40em;
+    height: 20em;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 2px;
+    border: unset;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Space Mono', monospace;
+  }
+}
+
+.entry-text-box:focus {
+  outline-color: lightcoral;
+  font-family: 'Space Mono', monospace;
+  color: lightcoral;
+  font-size: 1rem;
+}
+
+.entry-text-box::placeholder {
+  color: lightcoral;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+}
+
+.entry-submit-btn {
+  margin: 0;
+}
+
+/* Journal Results Section */
+
+.sectionEntryResults {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.entryResultRow {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  margin: 1em auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.single-entry-div {
+  max-width: 100%;
+
+  margin: 1em auto;
+  padding: 1em 1em;
+}
+
+.single-entry-date {
+  background-color: lightgoldenrodyellow;
+  width: 100%;
+}
+
+.heading-results {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: lightgoldenrodyellow;
+}
+
+.circle{
+	height: 150px;
+	width: 150px;
+	background-color: #5B0992;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+	
+}
+
+.info_title1{
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
+
+}
+
+.info_name1{
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
+
+}
+
+.info_title2{
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
+
+}
+
+.info_name2{
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
+
+}
+
+.info_title3{
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
+
+}
+
+.info_name3{
+	text-align: center;
+	margin-top: 50px;
+	color: #FFFFFF;
+
+}
+
+#mid{
+	text-align: center;
+}
