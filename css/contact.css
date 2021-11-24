@@ -70,11 +70,11 @@ h4 {
   text-align: center;
   font-size: 2.7rem;
   margin-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 150px;
   line-height: 50px;
 }
 
-div.column1{
+p.column1{
 	font-size: 2.4rem;
 }
 
@@ -82,7 +82,7 @@ input.fname{
 	font-size: 2rem;
 }
 
-div.column2{
+p.column2{
 	font-size: 2.4rem;
 }
 
@@ -90,7 +90,9 @@ input.lname{
 	font-size: 2rem;
 }
 
-div.column3{
+p.column3{
+	text-align: center;
+	margin-left: 0rem;
 	font-size: 2.4rem;
 }
 
@@ -98,16 +100,24 @@ select.country{
 	font-size: 2rem;
 }
 
-div.column4{
+p.column4{
 	font-size: 2.4rem;
 }
 
 textarea.subject{
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
-div.column5{
+p.column5{
 	margin-top: 50px;
+}
+
+form.message_form{
+	margin-left: 8rem;
+	max-width: 48rem;
+	text-align: center;
+	font-size: 1rem;
+	background: #8DC77EC0;
 }
 
 input.submit{
