@@ -436,6 +436,10 @@ h4 {
   line-height: 50px;
 }
 
+label{
+	font-size: 40%;
+}
+
 label.first{
 	font-size: 80%;
 }
@@ -458,7 +462,7 @@ p.column1{
 }
 
 input.fname{
-	font-size: 2%;
+	font-size: 60%;
 }
 
 p.column2{
@@ -467,43 +471,48 @@ p.column2{
 }
 
 input.lname{
-	font-size: 2%;
+	font-size: 62%;
 }
 
 p.column3{
-	margin-left: 0%;
+	margin-left: -14%;
 	font-size: 80%;
 	margin-top: 6%;
 }
 
 select.country{
-	font-size: 2%;
+	margin-left: 5%;
+	font-size: 75%;
 }
 
 p.column4{
 	font-size: 80%;
 	margin-top: 6%;
+	margin-left: -24%;
 }
 
 textarea.subject{
-	font-size: 1%;
+	margin-left: 7%;
+	font-size: 30%;
 }
 
 p.column5{
-	
+	font-size: 95%;
 	margin-top: 15%;
 }
 
 
 form.message_form{
-	margin-left: 26%;
-	max-width: 48%;
+	margin-left: 20%;
+	max-width: 60%;
 	text-align: center;
 	background: #8DC77EC0;
+	font-size: 130%;
+	
 }
 
 input.submit{
-	font-size: 2.7%;
+	font-size: 57%;
 }
 
 div.contact_info{
