@@ -8,6 +8,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   font-family: 'Space Mono', monospace;
   line-height: 2.2;
   background: #00BEAB;
@@ -24,7 +25,7 @@ div.topnav{
 a{
 	margin-top:  40px;
 	margin-right: 0px;
-	font-size: 2.7%;
+	font-size: 90%;
 	margin-left: 14px;
 	color: #FFFFFF;
 }
@@ -42,11 +43,15 @@ img{
 }
 
 h1 {
-  font-size: 70%;
+  font-size: 90%;
   text-align: center;
   background: #71FFEE;
-  margin-top: 90px;
-  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+h1.section_title{
+	margin-top: 60px;
 }
 
 h2 {
@@ -63,12 +68,12 @@ div.company.logo{
 
 h3 {
   text-align: center;
-  font-size: 2.7%;
+  font-size: 90%;
   background: #7B8B8E;
   margin-left: 55px;
   margin-right: 55px;
   margin-bottom: 0px;
-  line-height: 50px;
+  line-height: 40px;
   max-width: 9000px;
 
 }
@@ -77,6 +82,22 @@ ul{
   margin-left: 56px;
   margin-right: 55px;
   background: #72A6A4;
+}
+
+span.section_subtitle{
+	font-size: 90%;
+}
+
+p.about_description{
+	font-size: 80%;
+}
+
+div#mid{
+	margin-bottom: 60px;
+}
+
+button#2019_button{
+	text-align: center;
 }
 
 
@@ -336,9 +357,10 @@ div.topnav{
 
 
 p.established{
-	font-size: 2.4%;
+	font-size: 80%;
+	text-align: center;
 	background: #ABB3B4;
-	line-height: 80px;
+	line-height: 40px;
 	max-width: 40%;
 	margin-bottom: 50px;
 	margin-top: 20px;
@@ -463,21 +485,23 @@ p.web{
 }
 
 p.game1{
-	font-size: 2.4%;
+	font-size: 80%;
+	text-align: center;
 	background: #ABB3B4;
 	max-width: 40%;
-	line-height: 80px;
+	line-height: 40px;
 	margin-bottom: 50px;
 	margin-top: 20px;
 	margin-left: 100px;
 }
 
 p.game2{
-	font-size: 2.4%;
+	font-size: 80%;
+	text-align: center;
 	background: #ABB3B4;
 	max-width: 40%;
-	line-height: 80px;
-	margin-bottom: 50px;
+	line-height: 40px;
+	margin-bottom: 60px;
 	margin-top: 20px;
 	margin-left: 100px;
 }
@@ -489,7 +513,8 @@ p.game2{
 	border-radius: 50%;
 	text-align: center;
 	display: inline-block;
-	
+	line-height: 150px;
+	color: #FFFFFF;
 }
 
 .info_title1{
@@ -508,9 +533,7 @@ p.game2{
 
 .info_title2{
 	text-align: center;
-	margin-top: 50px;
 	color: #FFFFFF;
-
 }
 
 .info_name2{
