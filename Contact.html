@@ -14,7 +14,7 @@
 <div class="open_text">
 <div style="text-align:center">
     <h2>Contact Us</h2>
-    <p>Swing by for a cup of coffee, or leave us a message:</p>
+    <p class="message">Swing by for a cup of coffee, or leave us a message:</p>
   </div>
 	
 </div>
@@ -24,15 +24,15 @@
 		<form class="message_form">
 		<div class="column1">
         	<label for="fname">First Name</label>
-        	<input type="text" id="fname" name="firstname" placeholder="Your name..">
+        	<input name="firstname" type="text" class="fname" placeholder="Your name..">
 	    </div>
 	    <div class="column2">
         	<label for="lname">Last Name</label>
-        	<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        	<input name="lastname" type="text" class="lname" placeholder="Your last name..">
         </div>
 	    <div class="column3">
         	<label for="country">Country</label>
-        	<select id="country" name="country">
+        	<select name="country" class="country">
           		<option value="malaysia">Malaysia</option>
           		<option value="brunei">Brunei</option>
           		<option value="singapore">Singapore</option>
@@ -41,10 +41,10 @@
 		</div>
 		<div class="column4">
         	<label for="subject">Subject</label>
-        	<textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+        	<textarea name="subject" class="subject" placeholder="Write something.."></textarea>
 		</div>
 		<div class="column5">
-        	<input type="submit" value="Submit">
+        	<input type="submit" class="submit" value="Submit">
 		</div>
       </form>
     </div>

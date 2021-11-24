@@ -39,24 +39,11 @@ p.established{
 	
 }
 
-b{
-	font-size: 2.7rem;
-	text-align: center;
-}
-
 img{
 	background: #000000;
 	font-size: 23px;
 	margin-right: 0px;
 	margin-left: 10px;
-}
-
-h1 {
-    font-size: 2.7rem;
-    text-align: center;
-	background: #71FFEE;
-	margin-top: 90px;
-	margin-bottom: 0px;
 }
 
 h2 {
@@ -68,29 +55,106 @@ h2 {
 		
 }
 
+p.message {
+  font-size: 2.3rem;
+
+	
+}
+
 div.company.logo{
 	text-align: center;
 	
 }
 
-h3 {
+h4 {
   text-align: center;
   font-size: 2.7rem;
-  background: #7B8B8E;
-  margin-left: 55px;
-  margin-right: 55px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
+  margin-top: 100px;
   line-height: 50px;
-  max-width: 9000px;
-
 }
 
-ul{
-  margin-left: 56px;
-  margin-right: 55px;
-  background: #72A6A4;
+div.column1{
+	font-size: 2.4rem;
 }
 
+input.fname{
+	font-size: 2rem;
+}
+
+div.column2{
+	font-size: 2.4rem;
+}
+
+input.lname{
+	font-size: 2rem;
+}
+
+div.column3{
+	font-size: 2.4rem;
+}
+
+select.country{
+	font-size: 2rem;
+}
+
+div.column4{
+	font-size: 2.4rem;
+}
+
+textarea.subject{
+	font-size: 2rem;
+}
+
+div.column5{
+	margin-top: 50px;
+}
+
+input.submit{
+	font-size: 2.7rem;
+}
+
+div.contact_info{
+	text-align: center;
+	font-size: 1rem;
+}
+
+div.photo{
+	background: #C0C0C0;
+}
+
+div.contact_no{
+	text-align: center;
+	font-size: 1rem;
+}
+
+p.address{
+	margin-right: 34px;
+}
+
+p.address2{
+	margin-right: 94px;
+}
+p.address3{
+	margin-right: 74px;
+}
+
+p.address4{
+	margin-right: 64px;
+}
+
+p.no_tel{
+	margin-right: 74px;
+	margin-top: 30px;
+}
+
+p.email{
+	margin-right: 34px;
+}
+
+p.web{
+	margin-right: 34px;
+}
 
 write{
 	background: #D9E335;
@@ -104,11 +168,6 @@ write{
 	display: inline-block;
 	margin-top: 0px;
 	
-	
-}
-
-p {
-  font-size: 1.3rem;
 	
 }
 
