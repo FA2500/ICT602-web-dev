@@ -119,13 +119,21 @@ div.contact_info{
 	font-size: 1rem;
 }
 
-div.photo{
-	background: #C0C0C0;
+div.address{
+	
+	margin-left: 8rem;
+	max-width: 48rem;
+	text-align: center;
+	font-size: 1rem;
+	background: #CCCCCCC0;
 }
 
 div.contact_no{
+    margin-left: 8rem;
+	max-width: 48rem;
 	text-align: center;
 	font-size: 1rem;
+	background: #CCCCCCC0;
 }
 
 p.address{
