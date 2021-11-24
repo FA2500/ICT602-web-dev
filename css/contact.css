@@ -14,8 +14,6 @@ body {
   margin: auto;
   padding: 0;
   max-width: 10000px;
-	
-
 }
 
 /* Global Typography */
@@ -39,26 +37,6 @@ p.established{
 	margin-top: 20px;
 	margin-left: 100px;
 	
-}
-
-p.game1{
-	font-size: 2.4rem;
-	background: #ABB3B4;
-	max-width: 40rem;
-	line-height: 80px;
-	margin-bottom: 50px;
-	margin-top: 20px;
-	margin-left: 100px;
-}
-
-p.game2{
-	font-size: 2.4rem;
-	background: #ABB3B4;
-	max-width: 40rem;
-	line-height: 80px;
-	margin-bottom: 50px;
-	margin-top: 20px;
-	margin-left: 100px;
 }
 
 b{
@@ -86,6 +64,8 @@ h2 {
 	text-align: center;
 	margin-top: 90px;
 	margin-bottom: 50px;
+	background: #26FFE9;
+		
 }
 
 div.company.logo{
@@ -128,7 +108,8 @@ write{
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.3rem;
+	
 }
 
 form,
