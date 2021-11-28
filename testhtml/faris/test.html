@@ -32,7 +32,7 @@ body {
 }
 
 /* Container around content */
-.containertime {
+.container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -40,7 +40,7 @@ body {
 }
 
 /* The circles on the timeline */
-.containertime::after {
+.container::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -97,7 +97,7 @@ body {
 }
 
 /* The actual content */
-.contenttime {
+.content {
   padding: 20px 30px;
   background-color: white;
   position: relative;
@@ -112,14 +112,14 @@ body {
   }
   
   /* Full-width containers */
-  .containertime {
+  .container {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
   
   /* Make sure that all arrows are pointing leftwards */
-  .containertime::before {
+  .container::before {
   left: 60px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
@@ -141,38 +141,38 @@ body {
 <body>
 
 <div class="timeline">
-  <div class="containertime left">
-    <div class="contenttime">
+  <div class="container left">
+    <div class="content">
       <h2>2017</h2>
       <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
-  <div class="containertime right">
-    <div class="contenttime">
+  <div class="container right">
+    <div class="content">
       <h2>2016</h2>
       <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
-  <div class="containertime left">
-    <div class="contenttime">
+  <div class="container left">
+    <div class="content">
       <h2>2015</h2>
       <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
-  <div class="containertime right">
-    <div class="contenttime">
+  <div class="container right">
+    <div class="content">
       <h2>2012</h2>
       <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
-  <div class="containertime left">
-    <div class="contenttime">
+  <div class="container left">
+    <div class="content">
       <h2>2011</h2>
       <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
-  <div class="containertime right">
-    <div class="contenttime">
+  <div class="container right">
+    <div class="content">
       <h2>2007</h2>
       <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
