@@ -29,7 +29,7 @@ a{
 	font-size: 90%;
 	margin-left: 1%;
 	margin-bottom: 0%;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 b{
@@ -58,8 +58,6 @@ h1 {
   color: #FFFFFF;
   background: url("../../../../../Desktop/class online/SEM III/ICT602/PIC/WeirdPoliteAntelope-max-1mb.gif");
   background-position: center; 
-	
-
 }
 
 
@@ -107,7 +105,8 @@ h3 {
 ul{
   margin-left: 13%;
   margin-right: 13%;
-  background: #72A6A4;
+  background: url("../../../../../Desktop/class online/SEM III/ICT602/PIC/YsWRDA.gif");
+	
 }
 
 span.section_subtitle{
