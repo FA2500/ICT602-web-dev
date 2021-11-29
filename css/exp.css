@@ -22,14 +22,14 @@ html {
 	font-size: 100%;
     text-align: center;
     margin-left: 0%;
-    background: #704614;
+    background: rgb(211, 207, 207);
     margin-top: 0%;
     margin-bottom: 10%;
     box-shadow: 0px 5px 20px black;
     max-width: 100%;
     line-height: 300%;
-    color: #FFFFFF;
-  }
+    color: black; 
+}
   
   
   
