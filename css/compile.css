@@ -15,6 +15,7 @@ body {
   margin: auto;
   padding: 0;
   max-width: 10000px;
+	background-image: url("../../../../Downloads/dark bg.jpg");
   
 
 }
@@ -66,11 +67,11 @@ h2 {
 	text-align: center;
 	margin-top: 20%;
 	margin-bottom: 0%;
-	text-shadow: 2px 2px 5px green;
-	background:#FFFD00;
+	text-shadow: 2px 2px 5px black;
+	background-image:url("../images/white.jpg");
 	max-width: 70%;
 	margin-left: 14%;
-	box-shadow: 10px 10px 20px green;
+	box-shadow: 10px 10px 20px grey;
 	border-radius: 10px;
 	
 }
@@ -432,12 +433,13 @@ p.established{
 
 p.message {
   font-size: 80%;
-	background:#FFFB99;
+	background:#B0A6A6;
 	width: 95%;
 	margin-left: 2%;
 	border-radius: 10px;
-	background-image: url("../images/tiles.jpg");
-
+	background-image:url("../images/tiles.jpg");
+	box-shadow: 5px 5px 5px white;
+    text-shadow: 1px 1px 5px black;
 	
 }
 
@@ -523,6 +525,9 @@ form.message_form{
 	text-align: center;
 	background: #8DC77EC0;
 	font-size: 130%;
+	background-image:url("../images/white.jpg");
+	border-radius:5%;
+	box-shadow: 2px 2px 5px white;
 	
 }
 
