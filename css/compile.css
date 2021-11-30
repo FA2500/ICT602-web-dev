@@ -11,18 +11,17 @@ body {
   overflow-x: hidden;
   font-family: 'Space Mono', monospace;
   line-height: 2.2;
-  background: #00BEAB;
+  background: #CAFFFED2;
   margin: auto;
   padding: 0;
   max-width: 10000px;
-	background-image: url("../../../../Downloads/dark bg.jpg");
   
 
 }
 
 /* Global Typography */
 div.topnav{
-	background: #000000;
+	background:#FFFFFF;
 }
 a{
 	margin-top:  10%;
@@ -426,7 +425,7 @@ input[class^='btn-']:hover {
 }
 
 div.topnav{
-	background: #000000;
+	background:#000000;
 }
 
 
@@ -442,6 +441,9 @@ p.established{
 	
 }
 
+a.home{
+	background-image:url("../images/tiles.jpg");
+}
 
 p.message {
   font-size: 80%;
@@ -471,19 +473,22 @@ label{
 
 label.first{
 	font-size: 80%;
+	text-align: center;
 }
 
 label.last{
 	font-size: 80%;
+	text-align: center;
 }
 
 label.countryy{
 	font-size: 80%;
+	text-align: center;
 }
 
 label.subjectt{
 	font-size: 80%;
-	margin-left: 15%;
+	text-align: center;
 }
 
 p.column1{
@@ -505,24 +510,20 @@ input.lname{
 }
 
 p.column3{
-	margin-left: -14%;
 	font-size: 80%;
 	margin-top: 6%;
 }
 
 select.country{
-	margin-left: 5%;
 	font-size: 75%;
 }
 
 p.column4{
 	font-size: 80%;
 	margin-top: 6%;
-	margin-left: -24%;
 }
 
 textarea.subject{
-	margin-left: 7%;
 	font-size: 30%;
 }
 
@@ -558,7 +559,7 @@ div.content{
 }
 
 div.address{
-	background: #CCCCCCC0;
+	background-image:url("../images/YsWRDA.gif");
 	max-width: 80%;
 	margin-left: 10%;
 }
@@ -566,50 +567,50 @@ div.address{
 div.contact_no{
 	text-align: center;
 	font-size: 80%;
-	background: #CCCCCCC0;
+	background-image:url("../images/YsWRDA.gif");
 	max-width: 80%;
 	margin-left: 10%;
 }
 
 p.company_name{
 	font-size: 90%;
-	margin-right: 20%;
+	text-align: center;
 	
 }
 
 p.address{
 	font-size: 90%;
-	margin-right: 27%;
+	text-align: center;
 	
 }
 
 p.address2{
 	font-size: 90%;
-	margin-right: 41%;
+	text-align: center;
 }
 p.address3{
 	font-size: 90%;
-	margin-right: 37%;
+	text-align: center;
 }
 
 p.address4{
 	font-size: 90%;
-	margin-right: 36%;
+	text-align: center;
 }
 
 p.no_tel{
 	font-size: 90%;
-	margin-right: 42%;
+	text-align: center;
 }
 
 p.email{
 	font-size: 90%;
-	margin-right: 32%;
+	text-align: center;
 }
 
 p.web{
 	font-size: 90%;
-	margin-right: 32%;
+	text-align: center;
 	margin-bottom: 8%;
 }
 
