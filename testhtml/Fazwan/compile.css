@@ -758,8 +758,8 @@ html {
   }
   
   @keyframes example {
-	  0%   {background-image: url("tiles.jpg"); left:-500px;top: 0px;}
-	100%  {background-image: url("tiles.jpg");  left:0px; top:0px;}
+	  0%   {background-image: url("tiles.jpg"); bottom:-500px;left: 0px;}
+	100%  {background-image: url("tiles.jpg");  bottom:0px; left:0px;}
 	
   }
   
@@ -797,7 +797,7 @@ html {
   }
   
   @keyframes example2 {
-	  0%   {background-image: url("tiles.jpg");  right:-500px;top: 0px;}
-	100%  {background-image: url("tiles.jpg");  right:0px; top:0px;}
+	  0%   {background-image: url("tiles.jpg"); bottom:-500px;left: 0px;}
+	100%  {background-image: url("tiles.jpg");  bottom:0px; left:0px;}
 	
   }
