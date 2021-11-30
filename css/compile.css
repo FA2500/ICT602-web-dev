@@ -15,26 +15,6 @@ body {
   margin: auto;
   padding: 0;
   max-width: 10000px;
-  
-
-}
-
-/* Global Typography */
-div.topnav{
-	background:#FFFFFF;
-}
-a{
-	margin-top:  10%;
-	margin-right: 0%;
-	font-size: 90%;
-	margin-left: 1%;
-	margin-bottom: 0%;
-	color: #000000;
-}
-
-b{
-	font-size: 2.7%;
-	text-align: center;
 }
 
 img{
@@ -44,148 +24,12 @@ img{
 	margin-left: 0.2%;
 }
 
-h1 {
-  font-size: 90%;
-  color: #00000;
-  text-align: center;
-  background: #71FFEE;
-  margin-top: 0%;
-  margin-bottom: 20%;
-}
-
-h1.h1{
-  font-size: 100%;
-  text-align: center;
-  margin-left: 0%;
-  background: #704614;
-  margin-top: 0%;
-  margin-bottom: 10%;
-  box-shadow: 0px 5px 20px black;
-  max-width: 100%;
-  line-height: 300%;
-  color: #FFFFFF;
-  background: url("../images/WeirdPoliteAntelope-max-1mb.gif");
-  background-position: center;
-}
-
-h1.section_title{
-	margin-top: 60px;
-}
-
-h1.title{
-	text-align: center;
-	max-width: 90%;
-}
-
 h2 {
     font-size: 90%;
 	text-align: center;
 	margin-top: 20%;
 	margin-bottom: 0%;
 	background-image:url("../images/YsWRDA.gif");
-	
-}
-
-div.company.logo{
-	text-align: center;
-	
-}
-
-h3 {
-  text-align: center;
-  font-size: 90%;
-  background: #7B8B8E;
-  margin-left: 13%;
-  margin-right: 13%;
-  margin-bottom: 0%;
-  line-height: 300%;
-  max-width: 80%;
-
-}
-
-ul{
-  margin-left: 13%;
-  margin-right: 13%;
-  background: url("../images/YsWRDA.gif");
-
-}
-
-span.section_subtitle{
-	font-size: 90%;
-}
-
-p.about_description{
-	font-size: 80%;
-}
-
-div#mid{
-	margin-bottom: 60px;
-}
-
-p.text{
-	font-size: 80%;
-	text-align: center;
-}
-
-p.button{
-	font-size: 80%;
-	margin-right: 9%;
-}
-
-h1.title1{
-	text-align: center;
-	max-width: 90%;
-}
-
-p.button1{
-	font-size: 80%;
-	margin-right: 9%;
-}
-
-h1.title2{
-	text-align: center;
-	max-width: 90%;
-	line-height: 420%
-}
-
-p.button2{
-	font-size: 80%;
-	margin-right: 9%;
-}
-
-h1.title3{
-	text-align: center;
-	max-width: 90%;
-}
-
-p.button3{
-	font-size: 80%;
-	margin-right: 9%;
-}
-
-h1.title4{
-	text-align: center;
-	max-width: 90%;
-}
-
-p.button4{
-	font-size: 80%;
-	margin-right: 9%;
-}
-
-write{
-	background: #D9E335;
-	text-align: center;
-	display: inline-block;
-	
-}
-
-#write_button, #read_button{
-	text-align: center;
-	display: inline-block;
-	margin-top: 0px;
-	
-	
 }
 
 p {
@@ -197,16 +41,6 @@ textarea {
   font-size: 1%;
 }
 
-button {
-  display: block;
-  font-size: 1.2%;
-  padding: 0.5em 1em;
-  border: none;
-  background:#5B0992;
-  color: #FFFFFF;
-  font-family: 'Space Mono', monospace;
-  margin-bottom: 15px;
-}
 
 /* Section Container Positions, Spacing, Utilities */
 
@@ -226,9 +60,6 @@ header {
   margin: 0 auto;
   padding: 1em 1em;
   text-align: center;
-
-	  
-  
 }
 
 .container-row {
@@ -237,41 +68,6 @@ header {
 }
 
 /* Button Standard */
-
-.btn-main,
-.btn-light,
-.btn-dark {
-  display: block;
-  padding: 0.6% 2%;
-  margin: 1%;
-  transition: all 0.1s;
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
-}
-
-#login_button, #cancel_button{
-	text-align: center;
-	display: inline-block;
-	margin-top: 0px;
-	
-	
-}
-
-.btn-main {
-  color: lightgoldenrodyellow;
-  background-color: lightcoral;
-}
-
-.btn-light {
-  color: #0a2472;
-  background-color: white;
-}
-
-.btn-dark {
-  color: white;
-  background-color: #0a2472;
-}
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
@@ -287,65 +83,6 @@ input[class^='btn-']:hover {
 /* Journal Entry Section */
 
 /* Title */
-
-.entry-text-title {
-  width: 20em;
-  margin: 1em auto;
-  padding: 1em;
-  border-radius: 2px;
-  border: unset;
-  background-color: lightgoldenrodyellow;
-  font-family: 'Space Mono', monospace;
-}
-
-.entry-text-title:focus {
-  outline-color: lightcoral;
-  font-family: 'Space Mono', monospace;
-  color: lightcoral;
-  font-size: 1%;
-}
-
-.entry-text-title::placeholder {
-  color: lightcoral;
-  font-family: 'Space Mono', monospace;
-  font-size: 1%;
-}
-
-.entry-text-title::-ms-value {
-  color: lightcoral;
-  font-family: 'Space Mono', monospace;
-  font-size: 1%;
-}
-
-/* Text Box */
-
-.container-row-journal {
-  display: flex;
-  justify-content: center;
-}
-
-.entry-form {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.journal-label {
-  display: block;
-  line-height: 1.6;
-  font-size: 1.2%;
-  font-weight: 700;
-}
-
-.entry-text-box {
-  width: 100%;
-  height: 20em;
-  margin: 1em auto;
-  padding: 1em;
-  border-radius: 2px;
-  border: unset;
-  background-color: lightgoldenrodyellow;
-  font-family: 'Space Mono', monospace;
-}
 
 @media (min-width: 769px) {
   .entry-text-box {
