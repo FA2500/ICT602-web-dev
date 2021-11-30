@@ -10,28 +10,34 @@ body {
   overflow-x: hidden;
   font-family: 'Space Mono', monospace;
   line-height: 2.2;
-  background: #FDFAF6;
+  background: #CAFFFED2;
   margin: auto;
   padding: 0;
-  max-width: 10000px;
+  max-width: 10000%;
 }
 
 h1.headtitle{
 	font-size: 250%;
-	margin-bottom: -10%
+	background-image: linear-gradient(#01DCEC, black);
+	color: white;
+	box-shadow: 1px 7px 20px grey;
+	margin-bottom: 0%	
 }
 
 p.text{
-	font-size: 80%;
+	font-size: 30%;
 	text-align: center;
+	margin-top: -2%;
 }
 
 h1.title{
 	text-align: center;
+	font-size: 150%;
+	border-radius: 2%/12%; 
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-bottom: -3%;
-	margin-top: 15%;
+	margin-bottom: -1%;
+	margin-top: 10%;
 	position: relative;
     animation-name: mapdesigner;
     animation-duration: 5s;
@@ -41,7 +47,7 @@ p.button{
 	font-size: 87%;
 	text-align: center;
     background-color: #E22323;
-    border-radius: 0%;
+    border-radius: 1%/40%;
     color: white;
     margin-left: 15%;
 	margin-right: 15%;
@@ -53,21 +59,23 @@ p.button{
 }
 
 @keyframes mapdesigner{
-  0%   {left:-200px; top:0px;}
-  25%  {left:0px; top:0px;}
+  0%   {left:-200%; top:0%;}
+  25%  {left:0%; top:0%;}
 }
 
 @keyframes viewmore{
-  0%   {left:-200px; top:0px;}
-  25%  {left:0px; top:0px;}
+  0%   {left:-200%; top:0%;}
+  25%  {left:0%; top:0%;}
 }
 
 h1.title1{
 	text-align: center;
+	font-size: 150%;
+	border-radius: 2%/12%;
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-bottom: -3%;
-	margin-top: 15%;
+	margin-bottom: -1%;
+	margin-top: 4%;
 	position: relative;
     animation-name: artist;
     animation-duration: 5s;
@@ -77,7 +85,7 @@ p.button1{
 	font-size: 87%;
 	text-align: center;
     background-color: #E22323;
-    border-radius: 0%;
+    border-radius: 1%/40%;
     color: white;
     margin-left: 15%;
 	margin-right: 15%;
@@ -89,21 +97,23 @@ p.button1{
 }
 
 @keyframes artist{
-  0%   {right:-200px; top:0px;}
-  25%  {right:0px; top:0px;}
+  0%   {right:-200%; top:0%;}
+  25%  {right:0%; top:0%;}
 }
 
 @keyframes viewmore1{
-   0%   {right:-200px; top:0px;}
-   25%  {right:0px; top:0px;}
+   0%   {right:-200%; top:0%;}
+   25%  {right:0%; top:0%;}
 }
 
 h1.title2{
 	text-align: center;
+	font-size: 150%;
+	border-radius: 2%/12%;
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-bottom: -3%;
-	margin-top: 15%;
+	margin-bottom: -1%;
+	margin-top: 4%;
 	line-height: 420%;
 	position: relative;
     animation-name: programmer;
@@ -114,7 +124,7 @@ p.button2{
 	font-size: 87%;
 	text-align: center;
     background-color: #E22323;
-    border-radius: 0%;
+    border-radius: 1%/40%;
     color: white;
     margin-left: 15%;
 	margin-right: 15%;
@@ -126,21 +136,23 @@ p.button2{
 }
 
 @keyframes programmer{
-  0%   {left:-200px; top:0px;}
-  25%  {left:0px; top:0px;}
+  0%   {left:-200%; top:0%;}
+  25%  {left:0%; top:0%;}
 }
 
 @keyframes viewmore2{
-  0%   {left:-200px; top:0px;}
-  25%  {left:0px; top:0px;}
+  0%   {left:-200%; top:0%;}
+  25%  {left:0%; top:0%;}
 }
 
 h1.title3{
 	text-align: center;
+	font-size: 150%;
+	border-radius: 2%/12%;
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-bottom: -3%;
-	margin-top: 15%;
+	margin-bottom: -1%;
+	margin-top: 4%;
 	max-width: 1150%;
 	position: relative;
     animation-name: designer;
@@ -151,7 +163,7 @@ p.button3{
 	font-size: 87%;
 	text-align: center;
     background-color: #E22323;
-    border-radius: 0%;
+    border-radius: 1%/40%;
     color: white;
     margin-left: 15%;
 	margin-right: 15%;
@@ -163,21 +175,23 @@ p.button3{
 }
 
 @keyframes designer{
-  0%   {right:-200px; top:0px;}
-  25%  {right:0px; top:0px;}
+  0%   {right:-200%; top:0%;}
+  25%  {right:0%; top:0%;}
 }
 
 @keyframes viewmore3{
-   0%   {right:-200px; top:0px;}
-   25%  {right:0px; top:0px;}
+   0%   {right:-200%; top:0%;}
+   25%  {right:0%; top:0%;}
 }
 
 h1.title4{
 	text-align: center;
+	font-size: 150%;
+	border-radius: 2%/12%;
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-bottom: -3%;
-	margin-top: 15%;
+	margin-bottom: -1%;
+	margin-top: 4%;
 	max-width: 1150%;
 	position: relative;
     animation-name: sfx;
@@ -188,7 +202,7 @@ p.button4{
 	font-size: 87%;
 	text-align: center;
     background-color: #E22323;
-    border-radius: 0%;
+    border-radius: 1%/40%;
     color: white;
     margin-left: 15%;
 	margin-right: 15%;
@@ -200,19 +214,19 @@ p.button4{
 }
 
 @keyframes sfx{
-  0%   {left:-200px; top:0px;}
-  25%  {left:0px; top:0px;}
+  0%   {left:-200%; top:0%;}
+  25%  {left:0%; top:0%;}
 }
 
 @keyframes viewmore4{
-  0%   {left:-200px; top:0px;}
-  25%  {left:0px; top:0px;}
+  0%   {left:-200%; top:0%;}
+  25%  {left:0%; top:0%;}
 }
 
 h1 {
   font-size: 90%;
   text-align: center;
-  background: #01DCEC;
+  background : #01DCEC;
   margin-top: 0%;
   margin-bottom: 20%;
 }
@@ -220,10 +234,10 @@ h1 {
 button {
   display: block;
   font-size: 1.2%;
-  padding: 0.5em 1em;
+  padding: 0.5% 1%;
   border: none;
   background:#5B0992;
   color: #FFFFFF;
   font-family: 'Space Mono', monospace;
-  margin-bottom: 15px;
+  margin-bottom: 15%;
 }
