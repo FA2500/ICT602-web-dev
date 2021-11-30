@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+  }
+
 html {
 	margin: 0;
 	padding: 0;
@@ -140,4 +144,31 @@ html {
   @keyframes example2 {
 	  0%   {background-image: url('../images/tiles.jpg'); bottom:-500px;left: 0px;}
 	100%  {background-image: url('../images/tiles.jpg');  bottom:0px; left:0px;}
+  }
+
+/*Bottom Navigation Bar*/
+#navbar {
+	background-color: #333;
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	width: 100%;
+	display: block;
+	transition: top 0.3s;
+  }
+  
+  #navbar a {
+	float: left;
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 15px;
+	width : 33.33%;
+  }
+  
+  #navbar a:hover {
+	background-color: #ddd;
+	color: black;
   }
