@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.container{
+	max-width: 768px;
+}
+
+.grid{
+	display: grid;
+    gap: 1.5rem;
+}
+
+.header{
+	width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color:cyan;
+}
+
+.nav{
+	max-width: 968px;
+    height: 3rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+</style>
+
+</head>
+<body>
+
+<header class="header" id="header">
+	<nav class="nav container">
+    	<a href="#" class="nav_logo">Fa </a>
+    </nav>
+    
+    <div class="nav_menu" id="nav-menu">
+    	<ul class="nav_list grid"> 
+        	<li class="nav_item">
+            	<a href="#" class="nav_link">Welcome </a>
+            </li>
+            <li class="nav_item">
+            	<a href="#" class="nav_link">About Us </a>
+            </li>
+            <li class="nav_item">
+            	<a href="#" class="nav_link">Services </a>
+            </li>
+            <li class="nav_item">
+            	<a href="#" class="nav_link">Experience </a>
+            </li>
+            <li class="nav_item">
+            	<a href="#" class="nav_link">Contact Us </a>
+            </li>
+        </ul>
+        <i class="close" id="nav-close">close</i>
+    </div>
+    
+    <div class="nav_btns">
+    	<div class="nav_toggle" id="nav-toggle">
+        	<i class="app"></i>
+        </div>
+    </div>
+</header>
+
+
+</body>
+</html>
