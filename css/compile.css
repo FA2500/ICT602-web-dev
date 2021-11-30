@@ -39,7 +39,7 @@ b{
 }
 
 img{
-	background: #000000;
+	background-image: url("../images/WeirdPoliteAntelope-max-1mb.gif");
 	font-size: 20%;
 	margin-right: 0%;
 	margin-left: 0.2%;
@@ -83,12 +83,7 @@ h2 {
 	text-align: center;
 	margin-top: 20%;
 	margin-bottom: 0%;
-	text-shadow: 2px 2px 5px black;
-	background-image:url("../images/white.jpg");
-	max-width: 70%;
-	margin-left: 14%;
-	box-shadow: 10px 10px 20px grey;
-	border-radius: 10px;
+	background-image:url("../images/YsWRDA.gif");
 	
 }
 
@@ -467,6 +462,7 @@ h4 {
   margin-bottom: 2%;
   margin-top: 18%;
   line-height: 50px;
+	background-image: url("../images/YsWRDA.gif");
 }
 
 label{
@@ -542,7 +538,7 @@ form.message_form{
 	text-align: center;
 	background: #8DC77EC0;
 	font-size: 130%;
-	background-image:url("../images/white.jpg");
+	background-image:url("../images/YsWRDA.gif");
 	border-radius:5%;
 	box-shadow: 2px 2px 5px white;
 	
