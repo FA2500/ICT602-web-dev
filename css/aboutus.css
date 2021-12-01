@@ -44,11 +44,13 @@ html {
   span.section_subtitle{
 	  font-size: 90%;
 	  background-image: url('../images/intro.jpg');
+	  margin: 5%;
   }
   
   p.about_description{
 	  font-size: 80%;
 	  background-image: url('../images/intro.jpg');
+	  margin: 5%;
   }
   
   div#mid{
