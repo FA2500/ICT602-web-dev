@@ -1,5 +1,9 @@
 /* My Starter Template */
 
+* {
+	box-sizing: border-box;
+  }
+
 
 html {
   margin: 0;
@@ -204,6 +208,7 @@ div.contact_no{
 	background-image:url("../images/tiles.jpg");
 	max-width: 80%;
 	margin-left: 10%;
+	padding-bottom: 20%;
 }
 
 p.company_name{
@@ -246,4 +251,54 @@ p.web{
 	font-size: 90%;
 	text-align: center;
 	margin-bottom: 8%;
+}
+
+/*Bottom Navigation Bar*/
+#navbar {
+	background-color: #333;
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	width: 100%;
+	display: block;
+	transition: top 0.3s;
+  }
+  
+  #navbar a {
+	float: left;
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 15px;
+	width : 33.33%;
+  }
+  
+  #navbar a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+
+  /*Dark Mode(Experimental)*/
+  .dark-mode{
+	background-color: black;
+	/*color: white;*/
+}
+
+.darkBtn{
+  right:0;
+  top: 0; /* Position the navbar at the top of the page */
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px;*/
+  cursor: pointer;
 }

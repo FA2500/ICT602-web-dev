@@ -143,7 +143,7 @@
 	  left: 60px;
 	  border: medium solid white;
 	  border-width: 10px 10px 10px 0;
-	  border-color: transparent white transparent transparent;
+	  border-color: transparent red transparent transparent;
 	}
   
   /* Make sure all circles are at the same spot */
@@ -177,7 +177,7 @@
 	display: inline-block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 15px;
+	padding: 14px;
 	text-decoration: none;
 	font-size: 15px;
 	width : 33.33%;
@@ -186,4 +186,27 @@
   #navbar a:hover {
 	background-color: #ddd;
 	color: black;
+  }
+
+  /*Dark Mode(Experimental)*/
+  .dark-mode{
+	  background-color: black;
+	  /*color: white;*/
+  }
+
+  .darkBtn{
+	right:0;
+	top: 0; /* Position the navbar at the top of the page */
+	overflow: hidden;
+	position: fixed; /* Set the navbar to fixed position */
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	/*margin: 4px 2px;*/
+	cursor: pointer;
   }

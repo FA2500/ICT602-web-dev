@@ -70,7 +70,6 @@ ul{
   margin-right: 13%;
   margin-bottom: 35%;
   background: url("../images/YsWRDA.gif");
-	
 }
 
 /*Bottom Navigation Bar*/
@@ -99,3 +98,28 @@ ul{
 	background-color: #ddd;
 	color: black;
   }
+
+  /*Dark Mode(Experimental)*/
+  .dark-mode{
+	  background-color: black;
+	  /*color: white;*/
+  }
+
+  .darkBtn{
+	right:0;
+	top: 0; /* Position the navbar at the top of the page */
+	overflow: hidden;
+	position: fixed; /* Set the navbar to fixed position */
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	/*margin: 4px 2px;*/
+	cursor: pointer;
+  }
+
+ 
