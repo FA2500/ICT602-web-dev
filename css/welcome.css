@@ -72,6 +72,9 @@ ul{
   background: url("../images/YsWRDA.gif");
 }
 
+.mar{
+	padding-bottom: 30%;
+}
 /*Bottom Navigation Bar*/
 #navbar {
 	background-color: #333;
