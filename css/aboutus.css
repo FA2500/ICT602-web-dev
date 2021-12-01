@@ -89,7 +89,11 @@ html {
   
   #mid{
 	  text-align: center;
+	  
   }
+div.ismah{
+	padding-bottom: 30%;
+}
   
   .square1{
 	width: 150px;
