@@ -62,7 +62,12 @@ h3 {
   margin-bottom: 0%;
   line-height: 300%;
   max-width: 80%;
+  animation-name: ourgame;
+}
 
+@keyframes ourgame{
+  0%   {left:-200%; top:0%;}
+  25%  {left:0%; top:0%;}
 }
 
 ul{
@@ -70,6 +75,12 @@ ul{
   margin-right: 13%;
   margin-bottom: 35%;
   background: url("../images/YsWRDA.gif");
+  animation-name: list;
+}
+
+@keyframes list{
+  0%   {left:-200%; top:0%;}
+  25%  {left:0%; top:0%;}
 }
 
 .mar{
@@ -88,7 +99,7 @@ ul{
   
   #navbar a {
 	float: left;
-	display: inline-block;
+	display: block;
 	color: #f2f2f2;
 	text-align: center;
 	padding: 2%;
