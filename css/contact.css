@@ -265,12 +265,12 @@ p.web{
   
   #navbar a {
 	float: left;
-	display: inline-block;
+	display: block;
 	color: #f2f2f2;
 	text-align: center;
 	padding: 0%;
 	text-decoration: none;
-	font-size: 93.75%;
+	font-size: 110.75%;
 	width : 33.33%;
   }
   
