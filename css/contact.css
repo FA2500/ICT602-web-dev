@@ -208,7 +208,6 @@ div.contact_no{
 	background-image:url("../images/tiles.jpg");
 	max-width: 80%;
 	margin-left: 10%;
-	padding-bottom: 20%;
 }
 
 p.company_name{
@@ -301,4 +300,8 @@ p.web{
   font-size: 16px;
   /*margin: 4px 2px;*/
   cursor: pointer;
+}
+
+div.sukati_aku{
+	padding-bottom: 30%;
 }
