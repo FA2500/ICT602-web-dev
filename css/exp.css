@@ -14,6 +14,7 @@
 	background-color: #CAFFFED2;
 	font-family: 'Space Mono', monospace;
 	margin:auto;
+	line-height: 2.2;
   }
 
   .para{
@@ -188,8 +189,8 @@
 #navbar {
 	background-color: #333;
 	position: fixed;
-	bottom: 0px;
-	left:0px;
+	bottom: 0%;
+	left:0%;
 	width: 100%;
 	display: block;
 	transition: top 0.3s;
@@ -200,9 +201,8 @@
 	display: block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 2%;
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 93.75%;
 	width : 33.33%;
   }
   
