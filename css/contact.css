@@ -180,7 +180,14 @@ form.message_form{
 	background-image:url("../images/tiles.jpg");
 	border-radius:5%;
 	box-shadow: 2px 2px 5px white;
-	
+	position: relative;
+    animation-name: logo;
+    animation-duration: 5s
+}
+
+@keyframes logo{
+  0%   {right:-200%; top:0%;}
+  25%  {right:0%; top:0%;}
 }
 
 input.submit{
@@ -200,6 +207,14 @@ div.address{
 	background-image:url("../images/tiles.jpg");
 	max-width: 80%;
 	margin-left: 10%;
+	position: relative;
+  animation-name: golo;
+  animation-duration: 5s
+}
+
+@keyframes golo{
+  0%   {right:-200%; top:0%;}
+  25%  {right:0%; top:0%;}
 }
 
 div.contact_no{
@@ -208,6 +223,14 @@ div.contact_no{
 	background-image:url("../images/tiles.jpg");
 	max-width: 80%;
 	margin-left: 10%;
+	position: relative;
+    animation-name: logo3;
+    animation-duration: 5s
+}
+
+@keyframes logo3{
+  0%   {right:-200%; top:0%;}
+  25%  {right:0%; top:0%;}
 }
 
 p.company_name{
