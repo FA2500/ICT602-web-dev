@@ -20,6 +20,21 @@ body {
   max-width: 10000%;
 }
 
+h2 {
+  font-size: 100%;
+  text-align: center;
+  margin-left: 0%;
+  background: #704614;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  box-shadow: 0px 5px 20px black;
+  max-width: 100%;
+  line-height: 300%;
+  color: #FFFFFF;
+  background: url("../images/WeirdPoliteAntelope-max-1mb.gif");
+  background-position: center; 
+}
+
 h1.headtitle{
 	font-size: 300%;
 	background-image: linear-gradient(#01DCEC, black);
@@ -67,7 +82,7 @@ h1.title{
 p.button{
 	font-size: 87%;
 	text-align: center;
-    background-color: #E22323;
+    background-color: rgb(0,0,250);
     border-radius: 1%/40%;
     color: white;
     margin-left: 15%;
@@ -122,7 +137,7 @@ h1.title1{
 p.button1{
 	font-size: 87%;
 	text-align: center;
-    background-color: #E22323;
+    background-color: rgb(0,0,250);
     border-radius: 1%/40%;
     color: white;
     margin-left: 15%;
@@ -161,7 +176,7 @@ h1.title2{
 p.button2{
 	font-size: 87%;
 	text-align: center;
-    background-color: #E22323;
+    background-color: rgb(0,0,250);
     border-radius: 1%/40%;
     color: white;
     margin-left: 15%;
@@ -200,7 +215,7 @@ h1.title3{
 p.button3{
 	font-size: 87%;
 	text-align: center;
-    background-color: #E22323;
+    background-color: rgb(0,0,250);
     border-radius: 1%/40%;
     color: white;
     margin-left: 15%;
@@ -239,7 +254,7 @@ h1.title4{
 p.button4{
 	font-size: 87%;
 	text-align: center;
-    background-color: #E22323;
+    background-color: rgb(0,0,250);
     border-radius: 1%/40%;
     color: white;
     margin-left: 15%;
@@ -265,7 +280,8 @@ p.button4{
 h1 {
   font-size: 90%;
   text-align: center;
-  background : #2BC8E1;
+  /*background : #2BC8E1;*/
+  background-image: url('../images/intro.jpg');
   margin-top: 0%;
   margin-bottom: 20%;
 }

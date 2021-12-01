@@ -17,6 +17,21 @@ html {
 	padding: 0;
 	max-width: 10000%;
   }
+
+  h2 {
+	font-size: 100%;
+	text-align: center;
+	margin-left: 0%;
+	background: #704614;
+	margin-top: 0%;
+	margin-bottom: 10%;
+	box-shadow: 0px 5px 20px black;
+	max-width: 100%;
+	line-height: 300%;
+	color: #FFFFFF;
+	background: url("../images/WeirdPoliteAntelope-max-1mb.gif");
+	background-position: center; 
+  }
   
   h1 {
 	font-size: 90%;
@@ -112,8 +127,8 @@ div.ismah{
   }
   
   @keyframes example {
-	  0%   {background-image: url('../images/intro.jpg'); bottom:-500px;left: 0px;}
-	100%  {background-image: url(../images/intro.jpg');  bottom:0px; left:0px;}
+	  0%   {background-image: url('../images/intro.jpg'); bottom:-500px; left: 0px;}
+	100%  {background-image: url('../images/intro.jpg');  bottom:0px; left:0px;}
   }
   
   .square3{
