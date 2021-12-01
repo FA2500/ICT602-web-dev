@@ -161,6 +161,10 @@
 .animate-zoom2 {animation:animatezoom 1.20s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
 .animate-zoom3 {animation:animatezoom 1.80s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
 
+  .mar{
+	  padding-bottom: 30%;
+  }
+
 /*Bottom Navigation Bar*/
 #navbar {
 	background-color: #333;
@@ -177,7 +181,7 @@
 	display: inline-block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 14px;
+	padding: 2%;
 	text-decoration: none;
 	font-size: 15px;
 	width : 33.33%;
