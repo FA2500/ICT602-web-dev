@@ -32,7 +32,16 @@ img{
 	font-size: 20%;
 	margin-right: 0%;
 	margin-left: 0.2%;
+	position: relative;
+  animation-name: logo;
+  animation-duration: 5s
 }
+
+@keyframes logo{
+  0%   {right:-200%; top:0%;}
+  25%  {right:0%; top:0%;}
+}
+
 
 h1 {
   font-size: 100%;
@@ -62,7 +71,9 @@ h3 {
   margin-bottom: 0%;
   line-height: 300%;
   max-width: 80%;
+  position: relative;
   animation-name: ourgame;
+  animation-duration: 5s
 }
 
 @keyframes ourgame{
@@ -75,12 +86,14 @@ ul{
   margin-right: 13%;
   margin-bottom: 35%;
   background: url("../images/YsWRDA.gif");
+  position: relative;
   animation-name: list;
+  animation-duration: 5s;
 }
 
 @keyframes list{
-  0%   {left:-200%; top:0%;}
-  25%  {left:0%; top:0%;}
+  0%   {right:-200%; top:0%;}
+  25%  {right:0%; top:0%;}
 }
 
 .mar{
