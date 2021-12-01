@@ -101,7 +101,7 @@ div.ismah{
   .square1{
 	width: 200px;
 	height: 200px;
-	background-image: url('../images/tiles.jpg');
+	background-image: url('../images/intro.jpg');
 	position: relative;
 	animation-name: example;
 	animation-duration: 1.25s;
@@ -112,14 +112,14 @@ div.ismah{
   }
   
   @keyframes example {
-	  0%   {background-image: url('../images/tiles.jpg'); bottom:-500px;left: 0px;}
-	100%  {background-image: url('../images/tiles.jpg');  bottom:0px; left:0px;}
+	  0%   {background-image: url('../images/intro.jpg'); bottom:-500px;left: 0px;}
+	100%  {background-image: url(../images/intro.jpg');  bottom:0px; left:0px;}
   }
   
   .square3{
 	width: 200px;
 	height: 200px;
-	  background-image: url('../images/tiles.jpg'); 
+	  background-image: url('../images/intro.jpg'); 
 	position: relative;
 	animation-name: example1;
 	animation-duration: 1.25s;
@@ -131,14 +131,14 @@ div.ismah{
   
 
   @keyframes example1 {
-	  0%   {background-image: url('../images/tiles.jpg'); bottom:-500px;left: 0px;}
-	100%  {background-image: url('../images/tiles.jpg');  bottom:0px; left:0px;}
+	  0%   {background-image: url('../images/intro.jpg'); bottom:-500px;left: 0px;}
+	100%  {background-image: url('../images/intro.jpg');  bottom:0px; left:0px;}
   }
   
   .square2{
 	width: 200px;
 	height: 200px;
-	background-image: url('../images/tiles.jpg'); 
+	background-image: url('../images/intro.jpg'); 
 	position: relative;
 	animation-name: example2;
 	animation-duration: 1.25s;
@@ -149,8 +149,8 @@ div.ismah{
   }
   
   @keyframes example2 {
-	  0%   {background-image: url('../images/tiles.jpg'); bottom:-500px;left: 0px;}
-	100%  {background-image: url('../images/tiles.jpg');  bottom:0px; left:0px;}
+	  0%   {background-image: url('../images/intro.jpg'); bottom:-500px;left: 0px;}
+	100%  {background-image: url('../images/intro.jpg');  bottom:0px; left:0px;}
   }
 
 /*Bottom Navigation Bar*/
