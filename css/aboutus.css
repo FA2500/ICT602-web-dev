@@ -43,15 +43,16 @@ html {
   
   span.section_subtitle{
 	  font-size: 90%;
-	  background-image: url('../images/intro.jpg')
+	  background-image: url('../images/intro.jpg');
   }
   
   p.about_description{
 	  font-size: 80%;
-	  background-image: url('../images/intro.jpg')
+	  background-image: url('../images/intro.jpg');
   }
   
   div#mid{
+	  padding-top: 10%;
 	  margin-bottom: 6%;
   }
   
